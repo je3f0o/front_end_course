@@ -1,0 +1,40 @@
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.md-card {
+  padding: 16px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 2px;
+  background: white;
+  font-family: Roboto, sans-serif, Arial;
+}
+.md-card > h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.md-diviver {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.md-list__avatar {
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  background: gray;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.md-list__content-wrapper {
+  display: flex;
+}
+.md-list__content {
+  width: 100%;
+  padding: 16px 16px 0 0;
+}
+.md-list__description {
+  padding-bottom: 16px;
+}

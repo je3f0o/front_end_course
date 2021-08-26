@@ -1,0 +1,51 @@
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sudoku {
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 32px;
+  border: 3px solid black;
+  font-weight: bold;
+}
+.sudoku td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.sudoku td:nth-child(3n) {
+  border-right-width: 3px;
+}
+.sudoku tr:nth-child(3n) {
+  border-bottom: 3px solid black;
+}
+.sudoku .selected {
+  color            : white;
+  background-color : #0b7aaa;
+}
+.sudoku .selected.wrong {
+  background-color : red;
+}
+
+.button {
+  background: blueviolet;
+  padding: 8px 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button + .button {
+  margin-left: 0.5em;
+}
+.center {
+  padding: 1em;
+  text-align: center;
+}
